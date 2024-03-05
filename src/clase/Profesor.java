@@ -7,4 +7,13 @@ public class Profesor extends Personal{
         super(nombre, dni);
         this.especialidad = especialidad;
     }
+
+    @Override
+    public String toString() {
+        return "Profesor{" +
+                "especialidad='" + especialidad + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", dni='" + dni + '\'' +
+                '}';
+    }
 }

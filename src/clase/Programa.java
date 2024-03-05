@@ -8,5 +8,9 @@ public class Programa {
 
         listaPersonal.add(new Alumno("Sergio","52900571L","DAW"));
         listaPersonal.add(new Profesor("Diego","54700987P","Programador"));
+
+        for (Personal unaPersona : listaPersonal){
+            System.out.println(unaPersona.toString());
+        }
     }
 }
