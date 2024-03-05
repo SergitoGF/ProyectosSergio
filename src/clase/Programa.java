@@ -7,5 +7,6 @@ public class Programa {
         ArrayList<Personal> listaPersonal = new ArrayList<>();
 
         listaPersonal.add(new Alumno("Sergio","52900571L","DAW"));
+        listaPersonal.add(new Profesor("Diego","54700987P","Programador"));
     }
 }
