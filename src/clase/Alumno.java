@@ -7,4 +7,13 @@ public class Alumno extends Personal {
         super(nombre, dni);
         this.clase = clase;
     }
+
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "clase='" + clase + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", dni='" + dni + '\'' +
+                '}';
+    }
 }
